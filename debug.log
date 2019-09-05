@@ -1,0 +1,16 @@
+[0601/173110.636:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0601/173110.636:ERROR:exception_snapshot_win.cc(98)] thread ID 8432 not found in process
+[0604/141612.627:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0604/141612.644:ERROR:exception_snapshot_win.cc(98)] thread ID 11872 not found in process
+[0903/153535.849:ERROR:file_io_win.cc(161)] CreateFile C:\Users\vmanisha\AppData\Local\Temp\scoped_dir3408_103150501\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0903/153535.891:ERROR:file_io_win.cc(170)] CreateFile C:\Users\vmanisha\AppData\Local\Temp\scoped_dir3408_103150501\Crashpad\reports\d5fe2b17-e2e3-4731-961b-71e3c1bded27.dmp: The system cannot find the path specified. (0x3)
+[0903/153535.891:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0903/160227.894:ERROR:file_io_win.cc(161)] CreateFile C:\Users\vmanisha\AppData\Local\Temp\scoped_dir1144_1605987598\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0904/122318.269:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0904/122318.270:ERROR:exception_snapshot_win.cc(98)] thread ID 1144 not found in process
+[0904/182850.361:ERROR:file_io_win.cc(161)] CreateFile C:\Users\vmanisha\AppData\Local\Temp\scoped_dir3548_293889615\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0904/182850.362:ERROR:file_io_win.cc(170)] CreateFile C:\Users\vmanisha\AppData\Local\Temp\scoped_dir3548_293889615\Crashpad\reports\39061c93-dcd8-4936-8a7a-041403661816.dmp: The system cannot find the path specified. (0x3)
+[0904/182850.362:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0905/102757.473:ERROR:file_io_win.cc(161)] CreateFile C:\Users\vmanisha\AppData\Local\Temp\scoped_dir3380_1164724582\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0905/105145.808:ERROR:file_io_win.cc(161)] CreateFile C:\Users\vmanisha\AppData\Local\Temp\scoped_dir3928_92007825\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[0905/112207.649:ERROR:file_io_win.cc(161)] CreateFile C:\Users\vmanisha\AppData\Local\Temp\scoped_dir12744_380762304\Crashpad\settings.dat: The system cannot find the file specified. (0x2)

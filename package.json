@@ -1,0 +1,46 @@
+{
+  "name": "infusionsoft-core-automation",
+  "version": "1.0.0",
+  "description": "Nightwatch e2e UI Automation for infusionsoft-core",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infusionsoft/infusionsoft-core-automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/infusionsoft/infusionsoft-core-automation/issues"
+  },
+  "private": true,
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "src",
+    "@commands": "src/commands",
+    "@constants": "src/constants",
+    "@helpers": "src/helpers",
+    "@pages": "src/pages",
+    "@scripts": "src/scripts",
+    "@sections": "src/sections",
+    "@tests": "src/tests"
+  },
+  "scripts": {
+    "lint": "eslint ./src --no-fix",
+    "e2e:smoke": "npx nightwatch -g smoke",
+    "e2e:regression": "npx nightwatch -g regression",
+    "e2e:ci:smoke": "npx nightwatch -g smoke --suiteRetries 1",
+    "e2e:ci:regression": "npx nightwatch -g regression --suiteRetries 1"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "chromedriver": "^2.46.0",
+    "faker": "^4.1.0",
+    "module-alias": "^2.2.1",
+    "moment": "^2.24.0",
+    "nightwatch": "^1.1.11",
+    "yarn": "^1.15.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.17.1"
+  }
+}

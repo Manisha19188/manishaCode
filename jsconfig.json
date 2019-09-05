@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@root/*": ["./*"],
+            "@src/*": ["./src/*"],
+            "@commands/*": ["./src/commands/*"],
+            "@constants/*": ["./src/constants/*"],
+            "@helpers/*": ["./src/helpers/*"],
+            "@pages/*": ["./src/pages/*"],
+            "@scripts/*": ["./src/scripts/*"],
+            "@sections/*": ["./src/sections/*"],
+            "@tests/*": ["./src/tests/*"],
+        }
+    }
+}
