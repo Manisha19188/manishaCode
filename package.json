@@ -29,7 +29,7 @@
     "e2e:ci:regression": "npx nightwatch -g regression --suiteRetries 1"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "chromedriver": "^2.46.0",
     "faker": "^4.1.0",
     "module-alias": "^2.2.1",
